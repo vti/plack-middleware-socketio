@@ -1,5 +1,9 @@
 Revision history for perl module Plack::Middleware::SocketIO
 
+0.009004
+
+ - DEPRECATED. Use PocketIO instead
+
 0.009003
 
  - It is possible to pass class name or instance and method instead of inline

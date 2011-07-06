@@ -5,7 +5,7 @@ use warnings;
 
 use base 'Plack::Middleware';
 
-our $VERSION = '0.00903';
+our $VERSION = '0.00904';
 
 use Plack::Util ();
 use Plack::Util::Accessor qw(resource handler class instance method);
@@ -58,7 +58,7 @@ __END__
 
 =head1 NAME
 
-Plack::Middleware::SocketIO - Socket.IO middleware
+Plack::Middleware::SocketIO - Socket.IO middleware DEPRECATED
 
 =head1 SYNOPSIS
 
@@ -92,6 +92,8 @@ Plack::Middleware::SocketIO - Socket.IO middleware
     };
 
 =head1 DESCRIPTION
+
+DEPRECATED. Use PocketIO instead L<http://github.com/vti/pocketio>.
 
 L<Plack::Middleware::SocketIO> is a server implmentation of SocketIO in Perl.
 
