@@ -20,6 +20,7 @@ WriteMakefile(
     (   $mm < 6.46
         ? ()
         : ( META_MERGE => {
+                x_deprecated => 1,
                 requires  => {perl => '5.008007'},
                 resources => {
                     license => 'http://dev.perl.org/licenses/',
